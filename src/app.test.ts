@@ -1,4 +1,4 @@
-import { hello } from './index';
+import { hello } from './app';
 
 describe('Config example verification', () => {
   test('Hello must have content', () => {
