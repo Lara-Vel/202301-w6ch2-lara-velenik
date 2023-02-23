@@ -2,12 +2,12 @@
   "name": "base-backend-express",
   "version": "1.0.0",
   "description": "This is a demo project with default configs",
-  "main": "dist/app.js",
+  "main": "dist/server.js",
   "type": "module",
   "scripts": {
     "test": "jest",
     "build": "tsc",
-    "start": "node dist/app.js",
+    "start": "node dist/server.js",
     "prepare": "husky install",
     "-----": "---------CI----------",
     "ci:test": "npm test -- --coverage --watchAll=false"
